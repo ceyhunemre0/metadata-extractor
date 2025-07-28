@@ -1,0 +1,46 @@
+pdf:unmappedUnicodeCharsPerPage: ['0', '0', '0', '0', '0']
+pdf:PDFVersion: 1.4
+pdf:docinfo:title: 510 Philippines Typhoon Model Report
+pdf:hasXFA: false
+access_permission:modify_annotations: true
+X-TIKA:Parsed-By-Full-Set: ['org.apache.tika.parser.DefaultParser', 'org.apache.tika.parser.pdf.PDFParser']
+X-TIKA:content_handler: ToTextContentHandler
+pdf:num3DAnnotations: 0
+dcterms:created: 2022-10-05T08:09:53Z
+dcterms:modified: 2022-10-05T08:09:53Z
+dc:format: application/pdf; version=1.4
+xmpMM:DocumentID: uuid:887825aa-abca-a14d-ae1d-e9d457d47b30
+pdf:overallPercentageUnmappedUnicodeChars: 0.0
+access_permission:fill_in_form: true
+pdf:docinfo:modified: 2022-10-05T08:09:53Z
+pdf:hasCollection: false
+pdf:encrypted: false
+dc:title: 510 Philippines Typhoon Model Report
+pdf:containsNonEmbeddedFont: false
+xmp:CreateDate: 2022-10-05T08:09:53Z
+Content-Length: 244325
+pdf:hasMarkedContent: false
+pdf:ocrPageCount: 0
+Content-Type: application/pdf
+access_permission:can_print_faithful: true
+xmp:ModifyDate: 2022-10-05T08:09:53Z
+xmp:MetadataDate: 2022-10-05T08:09:53Z
+pdf:producer: Skia/PDF m108 Google Docs Renderer
+pdf:totalUnmappedUnicodeChars: 0
+access_permission:extract_for_accessibility: true
+access_permission:assemble_document: true
+xmpTPg:NPages: 5
+resourceName: b'1.pdf'
+pdf:hasXMP: true
+pdf:charsPerPage: ['161', '1568', '2025', '2539', '688']
+access_permission:extract_content: true
+access_permission:can_print: true
+X-TIKA:Parsed-By: ['org.apache.tika.parser.DefaultParser', 'org.apache.tika.parser.pdf.PDFParser']
+X-TIKA:parse_time_millis: 46
+X-TIKA:embedded_depth: 0
+pdf:annotationTypes: null
+access_permission:can_modify: true
+pdf:docinfo:producer: Skia/PDF m108 Google Docs Renderer
+pdf:docinfo:created: 2022-10-05T08:09:53Z
+pdf:annotationSubtypes: Link
+pdf:containsDamagedFont: false
