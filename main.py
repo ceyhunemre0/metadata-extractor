@@ -1,4 +1,5 @@
 from tika import parser
+from tika import language
 
 # PDF dosyasını parse et
 raw = parser.from_file('data/1.pdf')
@@ -12,11 +13,16 @@ def extract_metadata(metadata):
         for key, value in metadata.items():
             log_file.write(f"{key}: {value}\n")
 
-
 content = raw['content']
 def extract_content(content):
     # İçeriği log dosyasına yaz
     with open("logs/content.log", "w", encoding="utf-8") as log_file:
         log_file.write(content)
 
-extract_content(content)
+def detect_language(content):
+    # İçeriğin dilini tespit et
+    lang = language.from_buffer(content)
+    with open("logs/language.log", "w", encoding="utf-8") as log_file:
+        log_file.write(f"Detected language: {lang}\n")
+
+detect_language(content)
